@@ -52,7 +52,7 @@ Q. Describe any challenges encountered while building the app.
 
 A. My previous experience with native iOS development revolved around the SwiftUI framework, not UIKit and Storyboard. As a result, it was a challenge to get familiarize with how UIKit worked. 
 
-For the first example, the workflow is completely different between SwiftUI and UIKit. For SwiftUI, I would achieve similar visual results with this following code:
+For the first example, the workflow is completely different between SwiftUI and UIKit. For SwiftUI, I would achieve similar results for the "three labels and one button" with this following code:
 ```Swift
 struct ContentView:View {
     var body: some View {
@@ -64,13 +64,22 @@ struct ContentView:View {
             Spacer()
             
             Button("Change Color") {
-            
-            changeBackgroundColor()
+                changeBackgroundColor()
             }
         }
     }
 }
 ```
+
+The declarative nature of SwiftUI makes it quick and easy to prototype projects. With UIKit, it was overwhelming in comparsion as all of the options and information are displayed at the forefront. Adding a text, or label in UIKit, required extra steps to setup that developers need to be mindful of.
+
+The second example is the lack of SwiftUI's Canvas, or preview, for UIKit. The lack of a preview in UIKit made quick UI experimenting and testing difficult if I wanted to interact with buttons and such. The need to constantly build the app to experiment slowed down my progress. HOWEVER, it is worth mentioning that this issue might be resolved with Apple's WWDC announcement of the new macro, #Preview. #Preview works for SwiftUI, UIKit, and AppKit. The official information can be found [here](https://developer.apple.com/videos/play/wwdc2023/10252/?time=350).
+
+Lastly, UIKit is only used for iOS. This results in having to put in additional work if a developer wanted to create an app for MacOS and WatchOS. This would not be the case if SwiftUI was used instead.
+
+Despite the downside examples I mentioned for UIKit, I can see that it has its positive aspects that I have not utilized yet. I have used some UIKit APIs within SwiftUI as the latter has not implemented certain APIs for specific use cases. Plus, UIKit seems to be more customizable than SwiftUI. Additionally, I heard anecdote statements that the UI framework choice for iOS is still split between UIKit and SwiftUI in the workforce (it is difficult to find data for usage rate). 
+
+Regardless, I am excited to learn how to use UIKit and Storyboard! It will be a great additional skillset to SwiftUI for my toolkit.
 
 ## License
 
