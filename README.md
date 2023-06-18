@@ -12,6 +12,9 @@ The following **required** functionality is completed:
 
 - [x] Users are see a screen with three labels and a button
 - [x] Tapping the button changes the screen color to a random color
+
+### Personal Modifications
+- Change colors for all labels
  
 ## Video Walkthrough
 
@@ -27,6 +30,21 @@ GIF created with ...
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## App Brainstorming (Step 4)
+- Favorite apps:
+    - Genshin Impact & Honkai Star Rail
+        - Clean UI
+        - Allows pre-update installation before a major update patch drops
+    - GoodNotes
+        - Searching keywords within notes
+        - Organization of documents
+    - Raindrop.io
+        - Easily bookmark websites in any browser in iOS
+        - Using folders AND tags to organize each bookmarked website
+    
+- App Idea
+    - I would like to create a *Pomodoro Timer* app. There are existing apps on iOS, MacOS, and on the web. However, they lack features I would like to use. A feature I want is to allowing the user to create and select different set of settings for focus and break time for different study sessions. I can foresee these settings being stored in CoreData.
+
+
 
 ## Notes
 
