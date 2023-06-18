@@ -4,7 +4,7 @@ Submitted by: **Richard**
 
 **Prework CodePath** is an app that... displays this student's current information. It also allows the user to push the button "Change Color" that random changes background color. 
 
-Time spent: **1** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
