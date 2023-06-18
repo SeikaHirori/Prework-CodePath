@@ -48,7 +48,29 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Q. Describe any challenges encountered while building the app.
+
+A. My previous experience with native iOS development revolved around the SwiftUI framework, not UIKit and Storyboard. As a result, it was a challenge to get familiarize with how UIKit worked. 
+
+For the first example, the workflow is completely different between SwiftUI and UIKit. For SwiftUI, I would achieve similar visual results with this following code:
+```Swift
+struct ContentView:View {
+    var body: some View {
+        return VStack {
+            Text("Richard")
+            Text("Foothill College")
+            Text("iOS Developer")
+            
+            Spacer()
+            
+            Button("Change Color") {
+            
+            changeBackgroundColor()
+            }
+        }
+    }
+}
+```
 
 ## License
 
