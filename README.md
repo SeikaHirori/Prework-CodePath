@@ -77,7 +77,7 @@ The second example is the lack of SwiftUI's Canvas, or preview, for UIKit. The l
 
 Lastly, UIKit is only used for iOS. This results in having to put in additional work if a developer wanted to create an app for MacOS and WatchOS. This would not be the case if SwiftUI was used instead.
 
-Despite the downside examples I mentioned for UIKit, I can see that it has its positive aspects that I have not utilized yet. I have used some UIKit APIs within SwiftUI as the latter has not implemented certain APIs for specific use cases. Plus, UIKit seems to be more customizable than SwiftUI. Additionally, I heard anecdote statements that the UI framework choice for iOS is still split between UIKit and SwiftUI in the workforce (it is difficult to find data for usage rate). 
+Despite the downside examples I mentioned for UIKit, I can see that it has its positive aspects that I have not utilized yet. I have used some UIKit APIs within SwiftUI as the latter has not implemented certain APIs for specific use cases. Plus, UIKit seems to be more customizable than SwiftUI. UIKit also seems to support a larger amount of older iOS verisons when compared to SwiftUI. Additionally, I heard anecdote statements that the UI framework choice for iOS is still split between UIKit and SwiftUI in the workforce (it is difficult to find data for usage rate). 
 
 Regardless, I am excited to learn how to use UIKit and Storyboard! It will be a great additional skillset to SwiftUI for my toolkit.
 
